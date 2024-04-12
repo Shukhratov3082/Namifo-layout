@@ -1,0 +1,40 @@
+.team-spirit {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 85px;
+  margin: 120px 0;
+}
+.team-spirit__title {
+  font-size: 44px;
+  line-height: 52.8px;
+  margin-bottom: 30px;
+}
+.team-spirit__text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.8px;
+}
+.team-spirit__text:first-child {
+  margin: 30px 0 10px;
+}
+
+.team-spirit__awards {
+  width: 590px;
+  display: flex;
+  gap: 100px;
+  background-image: url("../../images/svg/team-spirit-block.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 25px 37px 0;
+}
+.team-spirit__award{
+  text-align: center;
+}
+.team-spirit__award-title {
+  max-width: 179px;
+  margin: 0 auto 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.6px;
+}

@@ -1,0 +1,34 @@
+@import "pages/home.css";
+@import "pages/award-info.css";
+@import "pages/award-kit.css";
+@import "pages/categories.css";
+@import "pages/reward-guide.css";
+@import "pages/team-spirit.css";
+@import "pages/footer.css";
+
+:root {
+  --black: #232f4c;
+  --white: #ffffff;
+  --blue: #1c49a1;
+  --light-blue: #caeafd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--black);
+}
+main {
+  padding: 0 360px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}

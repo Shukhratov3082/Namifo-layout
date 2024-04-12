@@ -1,0 +1,64 @@
+.reward-guide {
+  margin: 120px 0 100px;
+}
+.reward-guide__title {
+  font-size: 44px;
+  line-height: 52.8px;
+}
+.reward-guide__desc {
+  max-width: 901px;
+  margin: 15px 0 35px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+.reward-guide__sub {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+}
+
+.reward-guide__steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: var(--white);
+  margin: 40px 0 30px;
+}
+.reward-step {
+  width: 387px;
+  height: 300px;
+  align-content: flex-end;
+  background-image: url("../../images/svg/reward-step1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 40px;
+  padding: 30px;
+}
+.reward-step:nth-child(2) {
+  background-image: url("../../images/svg/reward-step2.svg");
+}
+.reward-step:last-child {
+  background-image: url("../../images/svg/reward-step3.svg");
+}
+.reward-guide__desc {
+  line-height: 22.4px;
+}
+.reward-step__desc.desc-size {
+  max-width: 230px;
+}
+
+.reward-guide__presentation {
+  padding: 66px 136px;
+  background-image: url("../../images/png/reward-presentation.png");
+  background-repeat: no-repeat;
+  color: var(--white);
+}
+.reward-guide__presentation-text {
+  max-width: 504px;
+  margin: 0 0 auto auto;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+}

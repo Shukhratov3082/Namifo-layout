@@ -1,0 +1,187 @@
+@media (max-width: 360px) {
+  main {
+    padding: 20px;
+  }
+  .home {
+    height: 846px;
+    padding: 20px;
+    background-image: url("../images/png/hero-bg-mobile.png");
+  }
+  header {
+    gap: 15px;
+    margin-bottom: 54px;
+  }
+  .logo__img {
+    width: 98px;
+  }
+  .logo__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .hero__title {
+    font-size: 44px;
+    line-height: 46.2px;
+  }
+  .hero__sub {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+  .hero__btn {
+    width: 100%;
+    padding: 36px 0;
+  }
+
+  /* Team-spirit */
+
+  .team-spirit {
+    flex-direction: column;
+    gap: 30px;
+    margin: 60px 0;
+  }
+  .team-spirit__title {
+    font-size: 34px;
+    line-height: 28.8px;
+    margin-bottom: 15px;
+  }
+  .team-spirit__text {
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-bottom: 7px;
+  }
+  .team-spirit__awards {
+    width: 100%;
+    gap: 30px;
+    padding: 20px 9px 0 9px;
+  }
+  .team-spirit__award-title {
+    font-size: 16px;
+    line-height: 17.6px;
+  }
+  .team-spirit__award img {
+    width: 100%;
+  }
+
+  /* Award-info */
+
+  .award-info {
+    flex-direction: column-reverse;
+    background-position: center;
+    padding: 40px 18px 0 18px;
+    margin: 0 0 138px;
+    gap: 0;
+  }
+  .award-info__img {
+    max-width: 100%;
+    transform: translateY(78px);
+  }
+  .award-info__title {
+    font-size: 34px;
+  }
+  .award-info__desc {
+    margin-bottom: 10px;
+  }
+  .award-info__desc:last-child {
+    margin-bottom: -40px;
+  }
+
+  /* Categories */
+
+  .categories {
+    margin-bottom: 60px;
+  }
+  .categories__title {
+    font-size: 34px;
+    line-height: 40.8px;
+  }
+  .categories__list {
+    background-image: url("../images/svg/category-bg-mobile.svg");
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .category {
+    height: 282px;
+    padding: 45px 77px 0 36px;
+    gap: 30px;
+  }
+  .categories__submission {
+    background-position: 77%;
+  }
+  .submission-text {
+    max-width: 276px;
+    font-size: 18px;
+    line-height: 22.5px;
+  }
+
+  /* Award-kit */
+
+  .award-kit {
+    background-position: 88%;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 40px 20px;
+  }
+  .award-kit__title {
+    max-width: 196px;
+    margin: 0 auto;
+    font-size: 34px;
+    line-height: 40.8px;
+    text-align: center;
+  }
+  .award-kit__img {
+    width: 112%;
+    transform: translateX(9px);
+  }
+  .award-kit__list {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+
+  /* Reward-guide */
+
+  .reward-guide {
+    margin: 60px 0;
+  }
+  .reward-guide__title {
+    font-size: 34px;
+  }
+  .reward-guide__sub {
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+  .reward-guide__desc {
+    margin-bottom: 15px;
+  }
+  .reward-guide__steps {
+    flex-direction: column;
+  }
+  .reward-step {
+    width: 100%;
+    line-height: 22.4px;
+  }
+  .reward-guide__presentation {
+    padding: 40px 20px;
+    height: 510px;
+    background-image: url("../images/png/reward-presentation-mobile.png");
+  }
+  .reward-guide__presentation-text {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  /* Footer */
+
+  footer {
+    margin: 0;
+    padding: 40px 0;
+  }
+  .footer__text {
+    max-width: 290px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+  .footer__text:last-child {
+    max-width: 325px;
+  }
+}

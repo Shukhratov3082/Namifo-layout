@@ -1,0 +1,28 @@
+.award-kit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-image: url("../../images/png/award-kit-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  margin: 0 -160px;
+  padding-bottom: 33px;
+}
+.award-kit__content {
+  max-width: 500px;
+}
+.award-kit__title {
+  font-size: 44px;
+  line-height: 52.8px;
+  margin-bottom: 30px;
+}
+.award-kit__list {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30.8px;
+}
+.award-kit__list-item {
+  margin: 0 0 15px 25px;
+}

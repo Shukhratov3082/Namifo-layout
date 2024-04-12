@@ -1,0 +1,29 @@
+.award-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  color: var(--white);
+  background-image: url("../../images/svg/award-info-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  padding: 110px 0;
+  margin: 0 -160px 120px;
+}
+.award-info__img {
+  max-width: 36%;
+}
+.award-info__details {
+  max-width: 590px;
+}
+.award-info__title {
+  font-size: 44px;
+  line-height: 52.8px;
+  margin-bottom: 30px;
+}
+.award-info__desc {
+  font-size: 16px;
+  line-height: 23.2px;
+  margin-bottom: 15px;
+}

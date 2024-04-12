@@ -1,0 +1,14 @@
+footer {
+  margin: 0 160px;
+  padding: 40px;
+  background: var(--light-blue);
+  border-radius: 40px 40px 0 0;
+  text-align: center;
+}
+.footer__text {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
