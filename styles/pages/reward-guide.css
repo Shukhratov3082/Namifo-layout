@@ -42,6 +42,9 @@
 .reward-step:last-child {
   background-image: url("../../images/svg/reward-step3.svg");
 }
+.reward-step__contact {
+  font-weight: 600;
+}
 .reward-guide__desc {
   line-height: 22.4px;
 }

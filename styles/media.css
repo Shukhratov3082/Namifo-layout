@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   main {
     padding: 20px;
   }
@@ -71,7 +71,7 @@
     gap: 0;
   }
   .award-info__img {
-    max-width: 100%;
+    max-width: 97%;
     transform: translateY(78px);
   }
   .award-info__title {
@@ -95,14 +95,17 @@
   }
   .categories__list {
     background-image: url("../images/svg/category-bg-mobile.svg");
+    background-size: contain;
+    background-position: center;
     flex-direction: column;
     margin-top: 30px;
   }
   .category {
-    height: 282px;
-    padding: 45px 77px 0 36px;
+    height: 270px;
+    padding: 45px 77px 0 70px;
     gap: 30px;
   }
+
   .categories__submission {
     background-position: 77%;
   }
@@ -160,13 +163,14 @@
     line-height: 22.4px;
   }
   .reward-guide__presentation {
-    padding: 40px 20px;
-    height: 510px;
+    padding: 44px 26px;
+    height: 572px;
     background-image: url("../images/png/reward-presentation-mobile.png");
+    background-size: contain;
   }
   .reward-guide__presentation-text {
-    font-size: 24px;
-    line-height: 28.8px;
+    font-size: 26px;
+    line-height: 30px;
   }
 
   /* Footer */
