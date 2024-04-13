@@ -18,7 +18,9 @@ header {
   line-height: 24px;
 }
 /* HERO */
-.hero {
+.hero-doctors-mobile{
+  display: none;
+  margin-top: 30px;
 }
 .hero__content {
   max-width: 535px;

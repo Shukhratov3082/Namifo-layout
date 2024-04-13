@@ -43,7 +43,18 @@
   background-image: url("../../images/svg/reward-step3.svg");
 }
 .reward-step__contact {
+  display: block;
   font-weight: 600;
+  margin-top: 5px;
+}
+.reward-step__btn {
+  display: none;
+  padding: 20px 10px;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0px -3px 0px 0 #999494 inset;
+  border: none;
+  bottom: -70px;
 }
 .reward-guide__desc {
   line-height: 22.4px;
